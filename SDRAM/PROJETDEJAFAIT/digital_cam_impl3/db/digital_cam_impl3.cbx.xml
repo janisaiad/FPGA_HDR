@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="digital_cam_impl3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_cam_impl3|do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|DoubleFiFOLineBuffer:DoubleLineBuffer|FIFOLineBuffer:LineBuffer2|altsyncram:ram_array_rtl_0" CBX_FILE_NAME="altsyncram_rbi1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_cam_impl3|frame_buffer:Inst_frame_buf_1|my_frame_buffer_15to0:Inst_buffer_top|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_iip3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_cam_impl3|do_black_white:Inst_black_white|binary_divider_ver1:Inst_binary_divider|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_nhm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_cam_impl3|do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|DoubleFiFOLineBuffer:DoubleLineBuffer|FIFOLineBuffer:LineBuffer1|altsyncram:ram_array_rtl_0" CBX_FILE_NAME="altsyncram_rbi1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_cam_impl3|frame_buffer:Inst_frame_buf_2|my_frame_buffer_15to0:Inst_buffer_bottom|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_iip3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_cam_impl3|frame_buffer:Inst_frame_buf_2|my_frame_buffer_15to0:Inst_buffer_top|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_iip3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_cam_impl3|frame_buffer:Inst_frame_buf_1|my_frame_buffer_15to0:Inst_buffer_bottom|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_iip3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_cam_impl3|my_altpll:Inst_four_clocks_pll|altpll:altpll_component" CBX_FILE_NAME="my_altpll_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_cam_impl3|ov7670_controller:Inst_ov7670_controller|ov7670_registers:Inst_ov7670_registers|altsyncram:Mux0_rtl_0" CBX_FILE_NAME="altsyncram_ah11.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,59 @@
+library ieee;
+
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity digit_detector_control_unit is port(
+	clock					:	in		std_logic;
+	reset					:	in		std_logic;
+	LUT_NORMAL_OFFSET				:	out		integer -- Offset de la LUT normale
+  LUT_INVERSE_OFFSET				:	out		integer -- Offset de la LUT inverse
+  choice_lut_vector				:	in		std_logic_vector(3 downto 0) -- Vecteur de choix de LUT
+);
+end digit_detector_control_unit;
+
+
+
+architecture rtl of digit_detector_control_unit is
+    
+    signal LUT_NORMAL_OFFSET : integer;
+    signal LUT_INVERSE_OFFSET : integer;
+  process (CLOCK_25)
+  begin
+    if rising_edge(CLOCK_25) then
+
+      -- Gestion des différentes LUT avec les choice_lut_vectoritchs
+      -- En fonction du choice_lut_vectoritch on va modifier le LUT_OFFSET avec l'adresse des LUT choisies
+
+      -- Choix de la LUT normale
+      if choice_lut_vector(1 downto 0) = "00" then
+        LUT_NORMAL_OFFSET <= 00800000; -- Reinhard Normal
+      elsif choice_lut_vector(1 downto 0) = "01" then
+        LUT_NORMAL_OFFSET <= 0; -- Uncharted2filmic Normal
+      elsif choice_lut_vector(1 downto 0) = "10" then
+        LUT_NORMAL_OFFSET <= 0; -- BakingLabACES Normal
+      elsif choice_lut_vector(1 downto 0) = "11" then
+        LUT_NORMAL_OFFSET <= 0; -- NarkowiczACES Normal
+      else
+        LUT_NORMAL_OFFSET <= 0; -- Reinhard Normal par défaut
+      end if;
+
+      -- Choix de la LUT inverse
+      if choice_lut_vector(3 downto 2) = "00" then
+        LUT_INVERSE_OFFSET <= 0; -- Reinhard Inverse
+      elsif choice_lut_vector(3 downto 2) = "01" then
+        LUT_INVERSE_OFFSET <= 0; -- Uncharted2filmic Inverse
+      elsif choice_lut_vector(3 downto 2) = "10" then
+        LUT_INVERSE_OFFSET <= 0; -- BakingLabACES Inverse
+      elsif choice_lut_vector(3 downto 2) = "11" then
+        LUT_INVERSE_OFFSET <= 0; -- NarkowiczACES Inverse
+      else
+        LUT_INVERSE_OFFSET <= 0; -- Reinhard Inverse par défaut
+      end if;
+
+    end if;
+    LUT_NORMAL_OFFSET <= LUT_NORMAL_OFFSET;
+    LUT_INVERSE_OFFSET <= LUT_INVERSE_OFFSET;
+  end process;
+
+end rtl;

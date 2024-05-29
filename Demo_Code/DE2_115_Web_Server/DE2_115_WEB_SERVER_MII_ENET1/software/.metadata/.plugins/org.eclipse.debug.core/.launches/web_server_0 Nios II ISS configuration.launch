@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.altera.nj.launch.ISSLaunch">
+<booleanAttribute key="com.altera.nj.launch.USE_ALTERA_GENERATED_GDB_SCRIPT" value="false"/>
+<intAttribute key="com.altera.nj.launch.DEBUG_TARGET" value="2"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.GDB_INIT" value=""/>
+<stringAttribute key="com.altera.nj.launch.PTF_CPU" value="cpu"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="com.altera.nj.debug.core.NJGDBDebugger"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug/web_server_0.elf"/>
+<booleanAttribute key="com.altera.nj.launch.QUEST_TRACING" value="true"/>
+<booleanAttribute key="com.altera.nj.launch.LAUNCH_FS2" value="false"/>
+<stringAttribute key="com.altera.nj.launch.PTF_NAME" value="D:\web\DE2_115_WEB_SERVER_MII\DE2_115_SOPC.ptf"/>
+<booleanAttribute key="com.altera.nj.launch.QUEST_TRACE_WARNING" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="web_server_0"/>
+<booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="true"/>
+<stringAttribute key="com.altera.nj.launch.QUEST_LOCATION" value="nios2-iss"/>
+</launchConfiguration>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="204" key="DIALOG_Y_ORIGIN"/>
+		<item value="668" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="Read OK" key="selection"/>
+		<list key="findhistory">
+			<item value="Read OK"/>
+			<item value="Fat_Mount success"/>
+			<item value="[FAT]Fat_Mount success"/>
+			<item value="bLastSwitch"/>
+			<item value="bSwitch"/>
+			<item value="main"/>
+			<item value="Welcome to SD-CARD Demo Program"/>
+			<item value="Play Next Song"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+</section>

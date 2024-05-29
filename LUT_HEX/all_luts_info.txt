@@ -1,0 +1,12 @@
+LUT Name: reinhard
+Inverse: No
+Start Address: 00800000
+End Address: 0083FFFF
+LUT Size: 262144 bytes
+
+LUT Name: reinhard
+Inverse: Yes
+Start Address: 00840000
+End Address: 0087FFFF
+LUT Size: 262144 bytes
+

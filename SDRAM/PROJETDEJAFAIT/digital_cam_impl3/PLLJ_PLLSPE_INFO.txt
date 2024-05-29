@@ -1,0 +1,5 @@
+PLL_Name	my_altpll:Inst_four_clocks_pll|altpll:altpll_component|my_altpll_altpll:auto_generated|pll1
+PLLJITTER	35
+PLLSPEmax	84
+PLLSPEmin	-53
+

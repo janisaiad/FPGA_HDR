@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon May 27 18:13:47 2024
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : top_hdr
+Top-level Entity Name : top_hdr
+Family : Cyclone IV E
+Total logic elements : 314
+    Total combinational functions : 283
+    Dedicated logic registers : 129
+Total registers : 129
+Total pins : 114
+Total virtual pins : 0
+Total memory bits : 540,672
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

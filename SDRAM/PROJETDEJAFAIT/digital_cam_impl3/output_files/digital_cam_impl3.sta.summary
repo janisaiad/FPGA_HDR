@@ -1,0 +1,341 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'do_edge_detection:Inst_edge_detection|clk_div2'
+Slack : -14.297
+TNS   : -259.592
+
+Type  : Slow 1200mV 85C Model Setup 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -11.843
+TNS   : -119.281
+
+Type  : Slow 1200mV 85C Model Setup 'ov7670_pclk'
+Slack : -4.459
+TNS   : -2298.280
+
+Type  : Slow 1200mV 85C Model Setup 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|SyncSignalsDelayer:Delayer|rsync2'
+Slack : -1.384
+TNS   : -22.565
+
+Type  : Slow 1200mV 85C Model Setup 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|Counter:ColsCounter|num[0]'
+Slack : -0.829
+TNS   : -11.468
+
+Type  : Slow 1200mV 85C Model Setup 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : -0.155
+TNS   : -0.155
+
+Type  : Slow 1200mV 85C Model Setup 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 10.967
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|Counter:ColsCounter|num[0]'
+Slack : -5.842
+TNS   : -135.768
+
+Type  : Slow 1200mV 85C Model Hold 'do_edge_detection:Inst_edge_detection|clk_div2'
+Slack : -1.472
+TNS   : -11.341
+
+Type  : Slow 1200mV 85C Model Hold 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : -0.208
+TNS   : -0.208
+
+Type  : Slow 1200mV 85C Model Hold 'ov7670_pclk'
+Slack : 0.228
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|SyncSignalsDelayer:Delayer|rsync2'
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'do_edge_detection:Inst_edge_detection|clk_div2'
+Slack : -1.727
+TNS   : -13.816
+
+Type  : Slow 1200mV 85C Model Recovery 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|SyncSignalsDelayer:Delayer|rsync2'
+Slack : 0.168
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 7.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'do_edge_detection:Inst_edge_detection|clk_div2'
+Slack : -1.076
+TNS   : -1.076
+
+Type  : Slow 1200mV 85C Model Removal 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|SyncSignalsDelayer:Delayer|rsync2'
+Slack : -0.369
+TNS   : -2.952
+
+Type  : Slow 1200mV 85C Model Removal 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 1.882
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ov7670_pclk'
+Slack : -3.000
+TNS   : -1618.279
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'do_edge_detection:Inst_edge_detection|clk_div2'
+Slack : -2.693
+TNS   : -157.262
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|Counter:ColsCounter|num[0]'
+Slack : -1.549
+TNS   : -210.530
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|SyncSignalsDelayer:Delayer|rsync2'
+Slack : -1.285
+TNS   : -30.840
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.701
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 9.708
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_50'
+Slack : 9.891
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 19.709
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'do_edge_detection:Inst_edge_detection|clk_div2'
+Slack : -12.763
+TNS   : -229.263
+
+Type  : Slow 1200mV 0C Model Setup 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -9.806
+TNS   : -91.950
+
+Type  : Slow 1200mV 0C Model Setup 'ov7670_pclk'
+Slack : -4.061
+TNS   : -2072.002
+
+Type  : Slow 1200mV 0C Model Setup 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|SyncSignalsDelayer:Delayer|rsync2'
+Slack : -1.171
+TNS   : -18.303
+
+Type  : Slow 1200mV 0C Model Setup 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|Counter:ColsCounter|num[0]'
+Slack : -0.856
+TNS   : -12.622
+
+Type  : Slow 1200mV 0C Model Setup 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.016
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 11.784
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|Counter:ColsCounter|num[0]'
+Slack : -5.313
+TNS   : -123.334
+
+Type  : Slow 1200mV 0C Model Hold 'do_edge_detection:Inst_edge_detection|clk_div2'
+Slack : -1.202
+TNS   : -8.101
+
+Type  : Slow 1200mV 0C Model Hold 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : -0.310
+TNS   : -0.310
+
+Type  : Slow 1200mV 0C Model Hold 'ov7670_pclk'
+Slack : 0.216
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.293
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|SyncSignalsDelayer:Delayer|rsync2'
+Slack : 0.365
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'do_edge_detection:Inst_edge_detection|clk_div2'
+Slack : -1.437
+TNS   : -11.496
+
+Type  : Slow 1200mV 0C Model Recovery 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|SyncSignalsDelayer:Delayer|rsync2'
+Slack : 0.037
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 7.638
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'do_edge_detection:Inst_edge_detection|clk_div2'
+Slack : -1.011
+TNS   : -1.011
+
+Type  : Slow 1200mV 0C Model Removal 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|SyncSignalsDelayer:Delayer|rsync2'
+Slack : -0.255
+TNS   : -2.040
+
+Type  : Slow 1200mV 0C Model Removal 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 1.716
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ov7670_pclk'
+Slack : -3.000
+TNS   : -1591.789
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'do_edge_detection:Inst_edge_detection|clk_div2'
+Slack : -2.649
+TNS   : -157.086
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|Counter:ColsCounter|num[0]'
+Slack : -1.398
+TNS   : -187.711
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|SyncSignalsDelayer:Delayer|rsync2'
+Slack : -1.285
+TNS   : -30.840
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.690
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 9.708
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_50'
+Slack : 9.887
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 19.709
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'do_edge_detection:Inst_edge_detection|clk_div2'
+Slack : -6.837
+TNS   : -90.598
+
+Type  : Fast 1200mV 0C Model Setup 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -2.095
+TNS   : -24.286
+
+Type  : Fast 1200mV 0C Model Setup 'ov7670_pclk'
+Slack : -1.840
+TNS   : -907.546
+
+Type  : Fast 1200mV 0C Model Setup 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|SyncSignalsDelayer:Delayer|rsync2'
+Slack : -0.152
+TNS   : -1.143
+
+Type  : Fast 1200mV 0C Model Setup 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.093
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|Counter:ColsCounter|num[0]'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 15.858
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|Counter:ColsCounter|num[0]'
+Slack : -2.948
+TNS   : -71.281
+
+Type  : Fast 1200mV 0C Model Hold 'do_edge_detection:Inst_edge_detection|clk_div2'
+Slack : -0.973
+TNS   : -8.239
+
+Type  : Fast 1200mV 0C Model Hold 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : -0.123
+TNS   : -0.123
+
+Type  : Fast 1200mV 0C Model Hold 'ov7670_pclk'
+Slack : -0.063
+TNS   : -0.693
+
+Type  : Fast 1200mV 0C Model Hold 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.116
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|SyncSignalsDelayer:Delayer|rsync2'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'do_edge_detection:Inst_edge_detection|clk_div2'
+Slack : -0.776
+TNS   : -6.208
+
+Type  : Fast 1200mV 0C Model Recovery 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|SyncSignalsDelayer:Delayer|rsync2'
+Slack : 0.569
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 8.623
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'do_edge_detection:Inst_edge_detection|clk_div2'
+Slack : -0.587
+TNS   : -0.587
+
+Type  : Fast 1200mV 0C Model Removal 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|SyncSignalsDelayer:Delayer|rsync2'
+Slack : -0.403
+TNS   : -3.224
+
+Type  : Fast 1200mV 0C Model Removal 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.883
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ov7670_pclk'
+Slack : -3.000
+TNS   : -803.216
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'do_edge_detection:Inst_edge_detection|clk_div2'
+Slack : -1.000
+TNS   : -118.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|SyncSignalsDelayer:Delayer|rsync2'
+Slack : -1.000
+TNS   : -24.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'do_edge_detection:Inst_edge_detection|edge_sobel_wrapper:Inst_edge_sobel_wrapper|CacheSystem:CacheSystem|Counter:ColsCounter|num[0]'
+Slack : -0.554
+TNS   : -65.281
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.779
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_50'
+Slack : 9.574
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 9.754
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Inst_four_clocks_pll|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 19.750
+TNS   : 0.000
+
+------------------------------------------------------------

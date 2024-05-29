@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="DE2_115_SD_Card_Audio_Player.nios2.exec.1431895169" name="Nios II Executable" projectType="nios2.exec">
+<configuration artifactExtension="elf" artifactName="DE2_115_SD_Card_Audio_Player" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="nios2.exec.debug.2002685849" name="Debug" parent="nios2.exec.debug">
+<toolChain id="com.altera.nj.ui.exe.Debug.388713712" name="com.altera.nj.ui.exe.Debug" superClass="com.altera.nj.ui.exe.Debug">
+<tool id="com.altera.nj.ui.tool.compiler.exe.debug.211542791" name="Nios II Compiler" superClass="com.altera.nj.ui.tool.compiler.exe.debug">
+<option id="nios2.compiler.general.include.paths.1221330405" superClass="nios2.compiler.general.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DE2_115_SD_Card_Audio_Player/terasic_fat}&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DE2_115_SD_Card_Audio_Player/terasic_lib}&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${workspace_loc:/DE2_115_SD_Card_Audio_Player/terasic_sdcard}&quot;"/>
+</option>
+</tool>
+<tool id="com.altera.nj.ui.tool.linker.exe.debug.894669716" name="Linker" superClass="com.altera.nj.ui.tool.linker.exe.debug"/>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="elf" artifactName="DE2_115_SD_Card_Audio_Player" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="nios2.exec.release.1854807655" name="Release" parent="nios2.exec.release">
+<toolChain id="com.altera.nj.ui.exe.Release.121062457" name="com.altera.nj.ui.exe.Release" superClass="com.altera.nj.ui.exe.Release">
+<tool id="com.altera.nj.ui.tool.compiler.exe.release.1329425758" name="Nios II Compiler" superClass="com.altera.nj.ui.tool.compiler.exe.release"/>
+<tool id="com.altera.nj.ui.tool.linker.exe.release.1734929677" name="Linker" superClass="com.altera.nj.ui.tool.linker.exe.release"/>
+</toolChain>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>

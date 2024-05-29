@@ -1,0 +1,217 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# Date created = 08:37:56  February 15, 2015
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		digital_cam_impl3_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY digital_cam_impl3
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "08:37:56  FEBRUARY 15, 2015"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+
+set_location_assignment PIN_AB28 -to slide_sw_RESET
+set_location_assignment PIN_AC28 -to slide_sw_resend_reg_values
+set_location_assignment PIN_M23 -to btn_take_snapshot
+set_location_assignment PIN_M21 -to btn_display_snapshot
+set_location_assignment PIN_N21 -to btn_do_black_white
+set_location_assignment PIN_R24 -to btn_do_edge_detection
+set_location_assignment PIN_Y2 -to clk_50
+set_location_assignment PIN_F19 -to LED_config_finished
+set_location_assignment PIN_G19 -to LED_dll_locked
+set_location_assignment PIN_AE16 -to ov7670_data[7]
+set_location_assignment PIN_AD21 -to ov7670_data[6]
+set_location_assignment PIN_Y16 -to ov7670_data[5]
+set_location_assignment PIN_AC21 -to ov7670_data[4]
+set_location_assignment PIN_Y17 -to ov7670_data[3]
+set_location_assignment PIN_AB21 -to ov7670_data[2]
+set_location_assignment PIN_AC15 -to ov7670_data[1]
+set_location_assignment PIN_AB22 -to ov7670_data[0]
+set_location_assignment PIN_AC22 -to ov7670_href
+set_location_assignment PIN_AC19 -to ov7670_pclk
+set_location_assignment PIN_AD19 -to ov7670_pwdn
+set_location_assignment PIN_AF15 -to ov7670_reset
+set_location_assignment PIN_AF24 -to ov7670_sioc
+set_location_assignment PIN_AE21 -to ov7670_siod
+set_location_assignment PIN_AF25 -to ov7670_vsync
+set_location_assignment PIN_AF16 -to ov7670_xclk
+set_location_assignment PIN_D12 -to vga_b[7]
+set_location_assignment PIN_D11 -to vga_b[6]
+set_location_assignment PIN_C12 -to vga_b[5]
+set_location_assignment PIN_A11 -to vga_b[4]
+set_location_assignment PIN_B11 -to vga_b[3]
+set_location_assignment PIN_C11 -to vga_b[2]
+set_location_assignment PIN_A10 -to vga_b[1]
+set_location_assignment PIN_B10 -to vga_b[0]
+set_location_assignment PIN_A12 -to vga_CLK
+set_location_assignment PIN_C10 -to vga_sync_N
+set_location_assignment PIN_F11 -to vga_blank_N
+set_location_assignment PIN_G13 -to vga_hsync
+set_location_assignment PIN_C13 -to vga_vsync
+set_location_assignment PIN_C9 -to vga_g[7]
+set_location_assignment PIN_F10 -to vga_g[6]
+set_location_assignment PIN_B8 -to vga_g[5]
+set_location_assignment PIN_C8 -to vga_g[4]
+set_location_assignment PIN_H12 -to vga_g[3]
+set_location_assignment PIN_F8 -to vga_g[2]
+set_location_assignment PIN_G11 -to vga_g[1]
+set_location_assignment PIN_G8 -to vga_g[0]
+set_location_assignment PIN_H10 -to vga_r[7]
+set_location_assignment PIN_H8 -to vga_r[6]
+set_location_assignment PIN_J12 -to vga_r[5]
+set_location_assignment PIN_G10 -to vga_r[4]
+set_location_assignment PIN_F12 -to vga_r[3]
+set_location_assignment PIN_D10 -to vga_r[2]
+set_location_assignment PIN_E11 -to vga_r[1]
+set_location_assignment PIN_E12 -to vga_r[0]
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_b[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_b[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_b[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_b[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_b[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_b[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_b[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_b[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_CLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_sync_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_blank_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_hsync
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_vsync
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_g[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_g[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_g[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_g[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_g[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_g[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_g[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_g[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_r[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_r[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_r[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_r[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_r[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_r[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_r[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vga_r[0]
+
+set_location_assignment PIN_E22 -to LED_done
+set_location_assignment PIN_W3 -to DRAM_DQ[0]
+set_location_assignment PIN_W2 -to DRAM_DQ[1]
+set_location_assignment PIN_V4 -to DRAM_DQ[2]
+set_location_assignment PIN_W1 -to DRAM_DQ[3]
+set_location_assignment PIN_V3 -to DRAM_DQ[4]
+set_location_assignment PIN_V2 -to DRAM_DQ[5]
+set_location_assignment PIN_V1 -to DRAM_DQ[6]
+set_location_assignment PIN_U3 -to DRAM_DQ[7]
+set_location_assignment PIN_Y3 -to DRAM_DQ[8]
+set_location_assignment PIN_Y4 -to DRAM_DQ[9]
+set_location_assignment PIN_AB1 -to DRAM_DQ[10]
+set_location_assignment PIN_AA3 -to DRAM_DQ[11]
+set_location_assignment PIN_AB2 -to DRAM_DQ[12]
+set_location_assignment PIN_AC1 -to DRAM_DQ[13]
+set_location_assignment PIN_AB3 -to DRAM_DQ[14]
+set_location_assignment PIN_AC2 -to DRAM_DQ[15]
+set_location_assignment PIN_Y7 -to DRAM_ADDR[12]
+set_location_assignment PIN_AA5 -to DRAM_ADDR[11]
+set_location_assignment PIN_R5 -to DRAM_ADDR[10]
+set_location_assignment PIN_Y6 -to DRAM_ADDR[9]
+set_location_assignment PIN_Y5 -to DRAM_ADDR[8]
+set_location_assignment PIN_AA7 -to DRAM_ADDR[7]
+set_location_assignment PIN_W7 -to DRAM_ADDR[6]
+set_location_assignment PIN_W8 -to DRAM_ADDR[5]
+set_location_assignment PIN_V5 -to DRAM_ADDR[4]
+set_location_assignment PIN_R6 -to DRAM_ADDR[0]
+set_location_assignment PIN_V8 -to DRAM_ADDR[1]
+set_location_assignment PIN_U8 -to DRAM_ADDR[2]
+set_location_assignment PIN_P1 -to DRAM_ADDR[3]
+set_location_assignment PIN_U2 -to DRAM_LDQM
+set_location_assignment PIN_W4 -to DRAM_UDQM
+set_location_assignment PIN_AA6 -to DRAM_CKE
+set_location_assignment PIN_AE5 -to DRAM_CLK
+set_location_assignment PIN_V6 -to DRAM_WE_N
+set_location_assignment PIN_V7 -to DRAM_CAS_N
+set_location_assignment PIN_U6 -to DRAM_RAS_N
+set_location_assignment PIN_T4 -to DRAM_CS_N
+set_location_assignment PIN_R4 -to DRAM_BA_1
+set_location_assignment PIN_U7 -to DRAM_BA_0
+
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CYCLONEIII_CONFIGURATION_DEVICE EPCS64
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name VHDL_FILE ed_sync_signals_delayer.vhd
+set_global_assignment -name VHDL_FILE ed_counter.vhd
+set_global_assignment -name VHDL_FILE do_edge_detection.vhd
+set_global_assignment -name VHDL_FILE ed_sobel_kernel.vhd
+set_global_assignment -name VHDL_FILE ed_fifo_linebuffer.vhd
+set_global_assignment -name VHDL_FILE ed_edge_sobel_wrapper.vhd
+set_global_assignment -name VHDL_FILE ed_double_fifo_linebuffer.vhd
+set_global_assignment -name VHDL_FILE ed_cache_system.vhd
+set_global_assignment -name VHDL_FILE binary_divider.vhd
+set_global_assignment -name VHDL_FILE do_black_white.vhd
+set_global_assignment -name VHDL_FILE vga.vhd
+set_global_assignment -name VHDL_FILE top_level.vhd
+set_global_assignment -name VHDL_FILE sdram_rw.vhd
+set_global_assignment -name VHDL_FILE sdram_controller.vhd
+set_global_assignment -name VHDL_FILE RGB.vhd
+set_global_assignment -name VHDL_FILE ov7670_registers.vhd
+set_global_assignment -name VHDL_FILE ov7670_controller.vhd
+set_global_assignment -name VHDL_FILE ov7670_capture.vhd
+set_global_assignment -name VHDL_FILE my_frame_buffer_15to0.vhd
+set_global_assignment -name VHDL_FILE my_altpll.vhd
+set_global_assignment -name VHDL_FILE i2c_sender.vhd
+set_global_assignment -name VHDL_FILE frame_buffer.vhd
+set_global_assignment -name VHDL_FILE debounce.vhd
+set_global_assignment -name VHDL_FILE address_Generator.vhd
+set_global_assignment -name QIP_FILE my_frame_buffer_15to0.qip
+set_global_assignment -name QIP_FILE my_altpll.qip
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

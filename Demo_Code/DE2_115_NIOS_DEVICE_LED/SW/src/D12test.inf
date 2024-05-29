@@ -1,0 +1,60 @@
+[Version]
+Signature="$CHICAGO$"
+Class=USB
+provider=%PHILIPS%
+LayoutFile=layout.inf
+
+[Manufacturer]
+%MfgName%=Philips
+
+[Philips]
+%USB\VID_0471&PID_0222.DeviceDesc%=D12TEST.Dev, USB\VID_0471&PID_0222
+%USB\VID_0471&PID_0666.DeviceDesc%=D12TEST.Dev, USB\VID_0471&PID_0666
+%USB\VID_0471&PID_0888.DeviceDesc%=D12TEST.Dev, USB\VID_0471&PID_0888
+
+[PreCopySection]
+HKR,,NoSetupUI,,1
+
+[DestinationDirs]
+D12TEST.Files.Ext = 10,System32\Drivers
+D12TEST.Files.Inf = 10,INF
+
+[D12TEST.Dev]
+CopyFiles=D12TEST.Files.Ext
+AddReg=D12TEST.AddReg
+
+[D12TEST.Dev.NT]
+CopyFiles=D12TEST.Files.Ext
+AddReg=D12TEST.AddReg
+
+[D12TEST.Dev.NT.Services]
+Addservice = D12TEST, 0x00000002, D12TEST.AddService
+
+[D12TEST.AddService]
+DisplayName    = %D12TEST.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 2                  ; SERVICE_AUTO_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\D12TEST.sys
+LoadOrderGroup = Base
+
+[D12TEST.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,D12TEST.sys
+HKLM,"System\Currentcontrolset\Services\D12TEST\Parameters","MaximumTransferSize",0x10001,65536
+HKLM,"System\Currentcontrolset\Services\D12TEST\Parameters","DebugLevel",0x10001,2
+
+
+[D12TEST.Files.Ext]
+D12TEST.sys
+
+
+;---------------------------------------------------------------;
+
+[Strings]
+PHILIPS="Philips Semiconductors"
+MfgName="Philips"
+USB\VID_0471&PID_0222.DeviceDesc="Philips PDIUSBD12 Evaluation Board"
+USB\VID_0471&PID_0666.DeviceDesc="Philips PDIUSBD12 SMART Evaluation Board"
+USB\VID_0471&PID_0888.DeviceDesc="Philips PDIUSBD12 USB-EPP Evaluation Board"
+D12TEST.SvcDesc="D12TEST.Sys PDIUSBD12 Bulk IO test driver"

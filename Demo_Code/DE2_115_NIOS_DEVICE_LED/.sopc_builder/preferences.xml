@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <systemtable filter="Default">
+  <columns>
+   <connections preferredWidth="79" />
+   <export visible="0" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="363" />
+   <clocksource preferredWidth="358" />
+   <frequency preferredWidth="355" />
+  </columns>
+ </clocktable>
+ <window width="1600" height="870" x="0" y="0" />
+ <library
+   expandedCategories="Library/Memories and Memory Controllers/SRAM,Project,Library/Peripherals,Library/Bridges and Adapters,Library/Peripherals/Microcontroller Peripherals,Library,Library/Peripherals/Display,Project/Terasic Technologies Inc./DE2_115,Library/PLL,Library/Memories and Memory Controllers/SDRAM,Library/Terasic Technologies Inc./DE2_115,Library/Peripherals/Debug and Performance,Library/Memories and Memory Controllers,Library/Processors,Library/Terasic Technologies Inc.,Library/Peripherals/Multiprocessor Coordination,Project/Terasic Technologies Inc." />
+ <debug showDebugMenu="0" />
+</preferences>

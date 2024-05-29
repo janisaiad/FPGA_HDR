@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.altera.nj.launch.FlashLaunch">
+<stringAttribute key="com.altera.nj.launch.FLASH_SOF_FILENAME" value="D:\web\DE2_115_WEB_SERVER\DE2_115_WEB_SERVER.sof"/>
+<booleanAttribute key="com.altera.nj.launch.VALIDATE_HW_SYSID" value="true"/>
+<stringAttribute key="com.altera.nj.launch.FLASH_DATAFILE" value="1"/>
+<intAttribute key="com.altera.nj.launch.DEBUG_TARGET" value="1"/>
+<intAttribute key="com.altera.nj.launch.DEVICE_INDEX" value="-1"/>
+<stringAttribute key="com.altera.nj.launch.PTF_CPU" value="cpu"/>
+<stringAttribute key="com.altera.nj.launch.FLASH_SOF_OFFSET" value="0x0"/>
+<stringAttribute key="com.altera.nj.launch.FLASH_DATAFILE_OFFSET" value="0x100000"/>
+<stringAttribute key="com.altera.nj.launch.FLASH_DATAFILE_MEMORY_61" value="cfi_flash"/>
+<stringAttribute key="com.altera.nj.launch.CABLE_NAME" value="automatic"/>
+<stringAttribute key="com.altera.nj.launch.DOWNLOAD_ARGS" value=""/>
+<stringAttribute key="com.altera.nj.launch.FLASH_DATAFILE_MEMORY_60" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug/web_server_0.elf"/>
+<stringAttribute key="com.altera.nj.launch.FLASH_DATAFILE_FILENAME" value="E:\DE2_115_NEW\trunk\ref_design\DE2_115_WEB_SERVER_MII_NET1\software\web_server_0_syslib\ro_zipfs.zip"/>
+<stringAttribute key="com.altera.nj.launch.DONT_FLASH_SOFTWARE_PROJECT" value="1"/>
+<stringAttribute key="com.altera.nj.launch.PTF_NAME" value="E:\DE2_115_NEW\trunk\ref_design\DE2_115_Web_Server\DE2_115_WEB_SERVER_MII_ENET1\DE2_115_SOPC.ptf"/>
+<stringAttribute key="com.altera.nj.launch.SOF2FLASH_ARGS" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="web_server_0"/>
+<stringAttribute key="com.altera.nj.launch.FLASH_SOF_FLASHCONFIG_61" value="Custom"/>
+<stringAttribute key="com.altera.nj.launch.FLASH_SOF_MEMORY" value="cfi_flash"/>
+<booleanAttribute key="com.altera.nj.launch.ACTIVE_PARALLEL" value="false"/>
+</launchConfiguration>

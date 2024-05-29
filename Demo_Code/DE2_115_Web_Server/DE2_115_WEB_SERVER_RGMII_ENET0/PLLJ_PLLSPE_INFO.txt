@@ -1,0 +1,10 @@
+PLL_Name	DE2_115_SOPC:DE2_115_SOPC_inst|pll:the_pll|pll_altpll_ktn2:sd1|pll7
+PLLJITTER	35
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	enet_rx_clk_pll:enet_rx_clk_pll|altpll:altpll_component|enet_rx_clk_pll_altpll:auto_generated|pll1
+PLLJITTER	28
+PLLSPEmax	84
+PLLSPEmin	-53
+

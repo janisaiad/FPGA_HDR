@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="top_hdr">
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_hdr|hdr_datapath:G1|ram_image:G0|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_a5n3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_hdr|hdr_datapath:G1|ram_lut_doubleport:G1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_40g2.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
