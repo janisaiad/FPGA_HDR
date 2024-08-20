@@ -1,5 +1,5 @@
 # FPGA_HDR
-HDR Imaging on FPGA project for the FPGA lab course at Ecole Polytechnique
+HDR Imaging on FPGA project for the FPGA lab
 # Handwritten digit detection on FPGA
 
 The goal of this project is to implement HDR Imaging on FPGA using VHDL. The project was developed on a **Altera DE2-115** board and includes interfaces with a **VGA monitor** and a **TRDB-DC2** camera.
